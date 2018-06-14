@@ -7,30 +7,65 @@
     </head>
 
     <body>
-        <h1>Steve Djau</h1>
         <div class="full-container">
+            <header>
+                <h1>Steve Djau</h1>
+                <h3>Full Stack Developer</h3>
+            </header>
+        
             <!-- Biography -->
             <section class="bio">
-                <div class= "bio__text"></div>
-                <div class= "bio__photo"></div>
+                    <div class= "bio__photo"><img src="./Portfolio/potrait.jpg"></div>
+                <div class= "bio__text"><p>An aspiring Front-End Developer in pursuit of becoming a JavaScript Guru. Throughout my current and past experiences, I have been fortunate enough to thrive in team-driven work environments by utilizing my analytical and problem-solving skills. Currently I am looking for an opportunity which will allow me to gain real-world experience through mentorship and collaborative projects.</p></div>
+                
             </section>
+
             <!-- Works -->
             <section class="work-links">
 
             </section>
+
             <!-- Works Explanation -->
-            
+            <section class="work-details">
+
+            </section>
+
         </div>
 
     </body>
 
     <style>
-        h1 {
+        h1{
             font-family: 'Abril Fatface', cursive;
-            
+            text-align: center;
+            font-size: 4em;
+            color: #201e1e;
+        }
+        h3 {
+            font-family: 'Didact Gothic', sans-serif;
+            text-align: center;
+            font-size: 2em;
+            color: #c93f3f;
         }
         p {
             font-family: 'Didact Gothic', sans-serif;
+            color: #373636;
+        }
+        header {
+            margin: 175px auto;
+        }
+        .full-container{
+            width: 768px;
+            margin: 0 auto;
+            
+        }
+        .bio__text, .bio__photo {
+            display: inline-block;
+            width: 48%;
+        }
+        img {
+            width:80%;
+            margin: 0 10%;
         }
     </style>
 </html>
