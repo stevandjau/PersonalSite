@@ -1,0 +1,86 @@
+
+        h1{
+            font-family: 'Abril Fatface', cursive;
+            text-align: center;
+            font-size: 5em;
+            color: #201e1e;
+        }
+        h3 {
+            font-family: 'Signika Negative', sans-serif;
+            font-weight: 300;
+            text-align: center;
+            font-size: 2em;
+            color: #c93f3f;
+        }
+        p {
+            font-family: 'Didact Gothic', sans-serif;
+            color: #373636;
+        }
+        span {
+            font-family: 'Signika Negative', sans-serif;
+        }
+        header {
+            margin: 175px auto 80px;
+        }
+        .full-container{
+            width: 768px;
+            margin: 0 auto;
+            
+        }
+        .half {
+            display: inline-block;
+            width: 48%;
+        }
+
+        .third {
+            display: inline-block;
+            width: 25%;
+            margin: 2em 3%;
+            vertical-align: center;
+        }
+        
+        .social-icons {
+            width:45px;
+            margin:5px auto;
+            display: block;
+        }
+        
+        .background {
+            width:100%;
+            background-color: #c93f3f;
+            position: absolute;
+            z-index: -99;
+        }
+        
+        .skill__header{
+            color: #FFF;
+            font-family: 'Signika Negative', sans-serif;
+            font-size: 2em;
+            margin:20px 10px;
+        }
+
+        .skill__list span{
+            border: #FFF 1px solid;
+            border-radius: 4px;
+            padding:.5em;
+            color: #FFF;
+            font-family: 'Didact Gothic', sans-serif;
+            margin: 10px 10px;
+        }
+
+        .work-details__spently h4 {
+            font-family: 'Signika Negative', sans-serif;
+        }
+
+        .footerlogo {
+            font-family: 'Abril Fatface', cursive;
+            text-align: center;
+            font-size: 2em;
+            color: #FFF;
+            margin: 5px 30px;
+        }
+
+        img {
+            width: 80%;
+            margin: 0 10%;
+        }

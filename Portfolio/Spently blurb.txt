@@ -1,0 +1,16 @@
+Spently is a software that allows Shopify store owners to customize the email receipts that automatically sent out by Shopify depending on customers interactions 
+for example order confirmation, shipping confirmation and abandoned checkout. As users create multiple templates things could potentially get out of hands pretty quick
+with two main issue: trying to keep track of which template has been created and having to design multiple templates with consistent design.
+
+For the first issue I developed a system to create a set of templates that cover all Shopify email notification type. Adding new collection in our MongoDB database I managed
+to group a set of templates that helps user keeping track of their templates with ease improving the apps user experience. Then I proceed to also create the interface to show
+these groups of templates on ASP CSHTML.
+
+As for helping store owners to create consistent templates I leveraged the template set and introduced a new functionality: Global Settings. With global settings users can carry
+over a template's styling over to the next template they design. Our email builder was built using ReactJS so using ReactJS and Redux myself and another developer created
+a functionality to carry over a template's styling state to the next template so templates can share consistent design.
+
+Waves of Emotion is a game that I created with JQuery/JavaScript in a span of 2 days. I participated on a Game Jam hackathon held by Humber College supported by major brands
+on the gaming industry such as AMD. The theme of Game Jam for that year was waves and inspired by psychological state of depression and anxiety we developed this game. The
+concept of the game is how can you break free of your own confinement and will your fear catch up to you. We ended up creating this proof of concept as we are limited by time constraint
+of 2 days.
